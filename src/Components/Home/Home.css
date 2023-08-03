@@ -1,0 +1,275 @@
+.dashboard-container {
+  display: flex;
+  height: 200vh;
+  background-image: linear-gradient(to bottom, #f4e8e8, #931e1e);
+ 
+}
+.user-icons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-left: 500px;
+}
+
+.left-nav {
+  background-image: linear-gradient(to bottom, #b01c24, #2d0101);
+  width: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+.content-wrapper {
+  padding-top: 150px;
+  padding-left: 50px; /* Adjust the value as needed */
+}
+
+.selected-option {
+  margin-right: 50px;
+}
+
+.left-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.left-nav li {
+  display: flex;
+  align-items: center;
+  padding: 0.4rem 1rem;
+  border-bottom: 2px solid rgb(250, 249, 250);
+}
+
+.left-nav li:last-child {
+  border-bottom: none;
+}
+
+.left-nav li a {
+  color: rgb(247, 238, 238);
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+.main-content {
+  /* margin-left: 200px; */
+  flex: 1;
+}
+
+header {
+  background-image: linear-gradient(to bottom, #b01c24, #5d1717);
+  height: 70px;
+  color: rgb(254, 252, 252);
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+ }
+
+ .fixed-header {
+  position: fixed;
+  top: 0;
+  margin-left: 200px;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 999;
+}
+
+
+/* .search-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  
+} */
+
+.search-wrapper {
+  display: flex;
+  align-items: center;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  padding: 5px;
+  width: 50%;
+}
+
+.search-wrapper input[type="text"] {
+  border: none;
+  background: transparent;
+  outline: none;
+  flex: 1;
+  padding: 5px;
+  color:#251c1c
+}
+
+
+.search-wrapper i {
+  margin-left: 5px;
+  color: #888;
+}
+
+
+header input[type="text"] {
+  width: 100%;
+  height: 20px;
+  padding: 0.5rem;
+  padding-right: 2.5rem;
+  border: none;
+  border-radius: 5px;
+  margin-right: 1rem;
+  background-color: #ffffff;
+  color: white;
+}
+
+header input[type="text"]:focus {
+  outline: none;
+}
+
+header i {
+  position: absolute;
+  right: 0.5rem;
+  font-size: 1.5rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+main {
+  /* padding: 1rem; */
+}
+
+.left-nav img {
+  width: 100%; /* Adjust the width as needed */
+  height: auto;
+  margin-bottom: 80px; /* Adjust the margin as needed */
+  /* Add more styles as desired */
+}
+
+
+.left-nav ul li {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.left-nav ul li svg {
+  margin-right: 8px;
+  color: #ffffff;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #171111;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #ccc;
+  margin: 20px;
+  padding: 20px;
+  width: 60%;
+  height: 300px;
+}
+
+.transaction-table {
+  width: 100%;
+  border-collapse: collapse;
+ 
+}
+
+.transaction-table th,
+.transaction-table td,
+.transaction-table tr  {
+  padding: 2px;
+  text-align: left;
+}
+
+.transaction-table th {
+  background-color: #a01b1b;
+  color: #ffffff;
+}
+
+.transaction-table tbody tr:nth-child(even) {
+  background-color: #f1dede;
+}
+
+
+.menu-item li:hover {
+  background-color: #340303; /* Change the background color on hover */
+  cursor: pointer; /* Change the cursor to a pointer on hover */ 
+}
+
+.left-nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-item li {
+  display: block;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.menu-item li:hover {
+  background-color: #340303;
+}
+
+.logout-button {
+  background-color: #b01c24;
+  color: white;
+}
+
+.logout-button:hover {
+  background-color: #7f0e13;
+}
+
+.dropdown-container {
+  display: flex;
+  align-items: center;
+}
+
+.selected-option {
+  margin-right: 10px;
+}
+
+
+.selected-option,
+.select-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.select-wrapper {
+  position: relative;
+}
+
+.select-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5px 4px 0 4px;
+  border-color: #999999 transparent transparent transparent;
+}
+
+/*Home scc*/
+.submit-home-search-button {
+    width: 370px;
+    height: 40px;
+    margin-right: 320px;
+    background-color: #f1f1f1;
+    color: rgb(103, 100, 100);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  .search-home-icon {
+    color: rgb(103, 100, 100);
+
+  }

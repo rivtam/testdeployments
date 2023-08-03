@@ -1,0 +1,146 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.badge {
+  line-height: 0;
+}
+
+.table {
+    --mdb-table-font-size: 7rem;
+}
+
+.tabRow {
+    justify-content: "center" !important;
+    padding:  0.25rem 0rem 0.25rem 1rem !important;
+    cursor: "pointer" !important;
+    cursor: pointer  !important;
+
+    ;
+}
+
+.table-hover tbody tr:hover {
+/* .fullRow:hover { */
+  background-color: rgb(245, 11, 11, 0.3) !important;
+}
+
+.modal-content{
+  height: auto;
+  margin-left: 0;
+
+}
+
+.cola {
+  /* max-width: 80px !important; */
+      min-width: 67px;
+    /* overflow: hidden; */
+}
+
+.cola{
+  /* width: 100% !important; */
+}
+
+.modal-footer{
+     justify-content: center !important;
+          width: 700px;
+          margin-bottom: 30px;
+}
+
+.me-1 {
+  padding: 10px 40px  !important;
+  margin-bottom: 20px !important;
+}
+
+.modal-dialog {
+    max-width: 700px !important;
+}
+
+.appDiv{
+  height: 100%;
+}
+
+.bg-image {
+    min-height: 100%;
+
+}
+
+.welcome-txt{
+   color: orange !important;
+}
+
+.welcome-txt2{
+   /* color: rgb(0, 213, 255) !important; */
+     color: aqua !important;
+
+}
+
+
+/* .wInput{
+  width: 70px !important;
+} */
+
+.wSearch{
+  /* height: 70px; */
+  /* display: flex; */
+  /* justify-content: space-around; */
+  /* align-items: center; */
+  /* padding-right: 40px; */
+    margin: 35px  0px 15px 0px !important;
+
+}
+.btnSearch {
+  width: 100%;
+}
+
+.welcomeBtn:hover{
+  background-color: red !important;
+  color: aqua !important;
+}
+
+.AdSearch {
+  padding-top: 50px;
+}
+
+.spinner-grow {
+  flex-direction: row !important;
+  justify-content: space-around !important;
+  margin: 15px;
+}
+#detail{
+  height: 100%;
+}

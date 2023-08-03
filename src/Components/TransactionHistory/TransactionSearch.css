@@ -1,0 +1,179 @@
+.form-group {
+    margin-bottom: 10px;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .select-field {
+    width: 25.6%;
+    padding: 8px;
+  }
+  
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: #fdfcfc;
+    padding: 10px;
+    border-radius: 8px;
+    width: 800px;
+    height:400px;
+    margin-left: 60px;
+  }
+  
+  .modal-header {
+    margin-bottom: 10px;
+  }
+  
+  .modal-body {
+    margin-bottom: 10px;
+  }
+  
+  .date-picker-group {
+    margin-bottom: 10px;
+  }
+  
+  .date-picker {
+    width: 100%;
+    padding: 8px;
+  }
+  
+  .modal-footer {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .input-field {
+    width: 30%;
+    padding: 8px;
+  }
+  
+  .submit-button {
+    display: block;
+    width: 65%;
+   
+    padding: 8px;
+    background-color: #b01c24;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #890c13;
+  }
+
+  .search-dropdown {
+    position: relative;
+  }
+  
+  .search-dropdown-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+  .search-dropdown-list li {
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .search-dropdown-list li:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .search-dropdown-list li:first-child {
+    border-top: none;
+  }
+  
+  .search-dropdown-list li:last-child {
+    border-bottom: none;
+  }
+  
+  /* search style start here */
+  .form-group {
+    display: flex;
+    flex-direction: column;  
+  }
+  .search-label-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  .search-label {
+    margin-right: 10px;
+    width: 130px;
+    margin-left: 15px;
+  }
+
+  .field-label {
+    margin-left: 15px;
+    width: 125px;
+  }
+  .select-input {
+    width: 322px;
+    height: 40px;
+    margin-left: 1px; 
+  }
+  .search-input {
+    width: 322px;
+    margin-left: 13px;
+  }
+  .search-dropdown {
+    width: 325px;
+    margin-left: 13px;
+  }
+  .search-card {
+    margin-top: 40px; 
+  }
+
+/* Date picker style start here */
+  .date-modal-header {
+    margin-left: 300px;
+  }
+  .date-picker-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  .modal-footer {
+    margin-right: 50%;
+    height: 40px;
+    margin-top: 25px;
+  }
+ 
+
+
+
+
+  .submit-search-button {
+    margin-left: 151px;
+    height: 40px;
+    width: 330px;
+  }
+
+  .card {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  
+  
+  
