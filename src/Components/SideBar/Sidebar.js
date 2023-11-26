@@ -63,7 +63,7 @@ const Sidebar = props => {
   console.log('!!keycloak.authenticated', !!keycloak.authenticated);
   console.log('!keycloak.authenticated', !keycloak.authenticated);
 
-  const isLoggedIn = keycloak.authenticated === true;
+  const isLoggedIn = true; //keycloak.authenticated === true;
 
   return (
     <>
@@ -73,7 +73,7 @@ const Sidebar = props => {
             <NavIcon to="#">
               <FaIcons.FaBars onClick={showSidebar} />
             </NavIcon>
-            <img src="./Wizzit-Logo-White-1-768x179.png" className="rounded-circle" height="40" alt="" loading="lazy" />
+            {/* <img src="./Wizzit-Logo-White-1-768x179.png" className="rounded-circle" height="40" alt="" loading="lazy" /> */}
 
             {/* <div className="hidden xl:flex items-center space-x-5">
             <div className="hover:text-gray-200"> */}

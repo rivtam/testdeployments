@@ -8,7 +8,7 @@ import 'react-datepicker/dist/react-datepicker.css';
 import {Card, CardHeader, CardContent, Typography, Button} from '@material-ui/core';
 import { Height } from '@material-ui/icons';
 
-
+const trxDetails = [{}];
 class TransactionSearch extends React.Component {
     constructor(props) {
         super(props);

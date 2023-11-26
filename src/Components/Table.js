@@ -328,40 +328,40 @@ const TableComponent = () => {
   const [pageNumber, setPageNumber] = useState(1);
   const pageSize = 20;
   // const [pageSize, setPageSize] = useState(20);
-  const getTrx = useCallback(async () => {
-    // setIsLoading(true);
-    setError(null);
-    try {
-      let url = 'https://efinance-services-stage.wizzitdigital.com/';
+  // const getTrx = useCallback(async () => {
+  //   // setIsLoading(true);
+  //   setError(null);
+  //   try {
+  //     let url = 'https://efinance-services-stage.wizzitdigital.com/';
 
-      axios
-        .get(`${url}api/v1/tx-history?pageNumber=${pageNumber}&pageSize=${pageSize}`, {
-          headers: {
-            Accept: '*/*',
-            Authorization: `Bearer ${localStorage.getItem('token')}`,
-            // Authorization: `Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJEd2JlSmQzY05hbG1SWUVPaHhEbVpaV1hwQTVnSHdtRm9lRFF1X3l4MkdzIn0.eyJleHAiOjE2OTA3MjU0MTQsImlhdCI6MTY5MDcyNTExNCwiYXV0aF90aW1lIjoxNjkwNzA2MjY2LCJqdGkiOiIyMWQ5NDAyZS1kNzg5LTQyMjItOTRhZS01NjZiNmZkMzkwZDAiLCJpc3MiOiJodHRwczovL2F1dGgtc2VydmVyLXN0YWdlLndpenppdGRpZ2l0YWwuY29tL3JlYWxtcy9XSVpaSVQiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiYzMxNWYwNWQtZjk4Zi00OWEwLWEwZTQtMWVhNWE5ZmIwODc0IiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiZWZpbmFuY2Utc2VydmljZXMiLCJub25jZSI6ImM5YTgxNmMwLTU0MzAtNGFkZi04NGViLTFkYWU2MGE0OTEyOSIsInNlc3Npb25fc3RhdGUiOiIxYjMzNThhZS05ZmU1LTRlZTgtYjA4OC0xMzk3MDIwZWM3YjMiLCJhY3IiOiIwIiwiYWxsb3dlZC1vcmlnaW5zIjpbIioiXSwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwiZGVmYXVsdC1yb2xlcy13aXp6aXQiLCJ1bWFfYXV0aG9yaXphdGlvbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwiLCJzaWQiOiIxYjMzNThhZS05ZmU1LTRlZTgtYjA4OC0xMzk3MDIwZWM3YjMiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6IkRldiBEZXYiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJkZXZlbG9wZXIiLCJnaXZlbl9uYW1lIjoiRGV2IiwiZmFtaWx5X25hbWUiOiJEZXYiLCJlbWFpbCI6ImRldkB3aXp6aXQuY29tIn0.qRSIhuTal-kazVspcLFSQjAH9ETp10A967BY658hrJtJvC35qL76gdo8IFXS6h2USYdhjl2q3rXUFA8xRcWoM4ZQEwmFPYBTy_cNbdNfDfs_2L7vmI1uq-CptLXmE7AqrtlvDq82FHdPjp-jToYzWsjfaKEQnqiLMZHemYDpE65UKbFTBj9YB4HwCFGqZc4VVAhHh6arpT7zjFf0g9ttl5s5xQEI3W1Y_5VxLT07rGxB8LOVHTEgDvJgaxBVhlkbkUuVEcV53SR5rQceFwDM6vEBSzblDkpIHTnjmRbD_kLLmXoEmIOdsCDlp0o1PRHiXGgLUKPPFsb8nJyEO9McDQ`,
-          },
-        })
-        .then(response => {
-          console.log(response.data);
-          console.log(JSON.stringify(response.data));
-          const { rows, totalPages } = response.data;
-          console.log(response.data);
-          setTrxs(rows);
-        })
-        .catch(error => {
-          console.log('Error:', error);
-          throw new Error('Something went wrong!');
-        });
-    } catch (error) {
-      setError(error.message);
-    }
-    // setIsLoading(false);
-  }, [pageNumber]);
+  //     axios
+  //       .get(`${url}api/v1/tx-history?pageNumber=${pageNumber}&pageSize=${pageSize}`, {
+  //         headers: {
+  //           Accept: '*/*',
+  //           Authorization: `Bearer ${localStorage.getItem('token')}`,
+  //           // Authorization: `Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJEd2JlSmQzY05hbG1SWUVPaHhEbVpaV1hwQTVnSHdtRm9lRFF1X3l4MkdzIn0.eyJleHAiOjE2OTA3MjU0MTQsImlhdCI6MTY5MDcyNTExNCwiYXV0aF90aW1lIjoxNjkwNzA2MjY2LCJqdGkiOiIyMWQ5NDAyZS1kNzg5LTQyMjItOTRhZS01NjZiNmZkMzkwZDAiLCJpc3MiOiJodHRwczovL2F1dGgtc2VydmVyLXN0YWdlLndpenppdGRpZ2l0YWwuY29tL3JlYWxtcy9XSVpaSVQiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiYzMxNWYwNWQtZjk4Zi00OWEwLWEwZTQtMWVhNWE5ZmIwODc0IiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiZWZpbmFuY2Utc2VydmljZXMiLCJub25jZSI6ImM5YTgxNmMwLTU0MzAtNGFkZi04NGViLTFkYWU2MGE0OTEyOSIsInNlc3Npb25fc3RhdGUiOiIxYjMzNThhZS05ZmU1LTRlZTgtYjA4OC0xMzk3MDIwZWM3YjMiLCJhY3IiOiIwIiwiYWxsb3dlZC1vcmlnaW5zIjpbIioiXSwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwiZGVmYXVsdC1yb2xlcy13aXp6aXQiLCJ1bWFfYXV0aG9yaXphdGlvbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwiLCJzaWQiOiIxYjMzNThhZS05ZmU1LTRlZTgtYjA4OC0xMzk3MDIwZWM3YjMiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6IkRldiBEZXYiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJkZXZlbG9wZXIiLCJnaXZlbl9uYW1lIjoiRGV2IiwiZmFtaWx5X25hbWUiOiJEZXYiLCJlbWFpbCI6ImRldkB3aXp6aXQuY29tIn0.qRSIhuTal-kazVspcLFSQjAH9ETp10A967BY658hrJtJvC35qL76gdo8IFXS6h2USYdhjl2q3rXUFA8xRcWoM4ZQEwmFPYBTy_cNbdNfDfs_2L7vmI1uq-CptLXmE7AqrtlvDq82FHdPjp-jToYzWsjfaKEQnqiLMZHemYDpE65UKbFTBj9YB4HwCFGqZc4VVAhHh6arpT7zjFf0g9ttl5s5xQEI3W1Y_5VxLT07rGxB8LOVHTEgDvJgaxBVhlkbkUuVEcV53SR5rQceFwDM6vEBSzblDkpIHTnjmRbD_kLLmXoEmIOdsCDlp0o1PRHiXGgLUKPPFsb8nJyEO9McDQ`,
+  //         },
+  //       })
+  //       .then(response => {
+  //         console.log(response.data);
+  //         console.log(JSON.stringify(response.data));
+  //         const { rows, totalPages } = response.data;
+  //         console.log(response.data);
+  //         setTrxs(rows);
+  //       })
+  //       .catch(error => {
+  //         console.log('Error:', error);
+  //         throw new Error('Something went wrong!');
+  //       });
+  //   } catch (error) {
+  //     setError(error.message);
+  //   }
+  //   // setIsLoading(false);
+  // }, [pageNumber]);
 
-  useEffect(() => {
-    getTrx();
-  }, [getTrx]);
+  // useEffect(() => {
+  //   getTrx();
+  // }, [getTrx]);
 
   return (
     <>

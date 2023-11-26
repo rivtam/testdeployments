@@ -6,18 +6,18 @@ import { ReactKeycloakProvider } from '@react-keycloak/web';
 // import {Routes, Route, BrowserRouter,} from "react-router-dom";
 // import { createBrowserRouter } from 'react-router-dom';
 
-import RootLayout from './pages/Root';
-import ErrorPage from './pages/Error';
-import HomePage from './pages/Home';
+import RootLayout from './Pages/Root.js';
+import ErrorPage from './Pages/Error.js';
+import HomePage from './Pages/Home.js';
 
-import OverviewPage from './pages/Overview';
-import WelcomePage from './pages/Welcome';
-import { Reports, ReportsOne, ReportsTwo, ReportsThree } from './pages/Reports';
-import Team from './pages/Team';
+import OverviewPage from './Pages/Overview.js';
+import WelcomePage from './Pages/Welcome.js';
+import { Reports, ReportsOne, ReportsTwo, ReportsThree } from './Pages/Reports.js';
+import Team from './Pages/Team.js';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Sidebar from './Components/SideBar/Sidebar';
-import AdvancedSearchComponent from './pages/AdvancedSearch';
+import AdvancedSearchComponent from './Pages/AdvancedSearch.js';
 // import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 // import Overview from './pages/Overview';
 // import { Reports, ReportsOne, ReportsTwo, ReportsThree } from './pages/Reports';
@@ -54,10 +54,12 @@ import AdvancedSearchComponent from './pages/AdvancedSearch';
 // }
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import GroceryDetail from './Pages/Groceries/GroceryDetail.jsx';
 
-import Root from './pages/Root';
+import Root from './Pages/Root.js';
 import './App.css';
-import AuthRouter from './pages/AuthRouter';
+import AuthRouter from './Pages/AuthRouter.js';
+import Todo from './Components/Todo';
 // import { useKeycloak } from '@react-keycloak/web';
 
 // function App() {
@@ -72,28 +74,28 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: (
-          <PrivateRoute>
-            <OverviewPage />
-          </PrivateRoute>
-        ),
+        element: <HomePage />,
       },
       {
-        path: '/overview',
-        element: (
-          <PrivateRoute>
-            <OverviewPage />
-          </PrivateRoute>
-        ),
+        path: 'groceries/:id',
+        element: <GroceryDetail />,
       },
-      {
-        path: 'search',
-        element: (
-          <PrivateRoute>
-            <AdvancedSearchComponent />
-          </PrivateRoute>
-        ),
-      },
+      // {
+      //   path: '/overview',
+      //   element: (
+      //     <PrivateRoute>
+      //       <OverviewPage />
+      //     </PrivateRoute>
+      //   ),
+      // },
+      // {
+      //   path: 'search',
+      //   element: (
+      //     <PrivateRoute>
+      //       <AdvancedSearchComponent />
+      //     </PrivateRoute>
+      //   ),
+      // },
     ],
   },
 ]);

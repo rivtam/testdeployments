@@ -16,12 +16,14 @@ import AdvancedSearchComponent from './AdvancedSearch';
 import Sidebar from '../Components/SideBar/Sidebar';
 
 const AuthRouter = () => {
-  const { keycloak } = useKeycloak();
-  if (keycloak.authenticated === true) {
-    return <RouterProvider router={router} />;
-  } else {
-    return <WelcomePage />;
-  }
+  return <RouterProvider router={router} />;
+
+  // const { keycloak } = useKeycloak();
+  // if (keycloak.authenticated === true) {
+  //   return <RouterProvider router={router} />;
+  // } else {
+  //   return <WelcomePage />;
+  // }
 };
 
 const router = createBrowserRouter([
