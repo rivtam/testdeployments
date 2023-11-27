@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/rivtam/testdeployments/static/css/main.045164af.css",
-    "main.js": "/rivtam/testdeployments/static/js/main.efae7c18.js",
-    "static/js/787.c4898b4b.chunk.js": "/rivtam/testdeployments/static/js/787.c4898b4b.chunk.js",
+    "main.js": "/rivtam/testdeployments/static/js/main.b48a6be3.js",
+    "static/js/787.bae6da08.chunk.js": "/rivtam/testdeployments/static/js/787.bae6da08.chunk.js",
     "static/media/fa-solid-900.ttf": "/rivtam/testdeployments/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
     "static/media/Wizz.png": "/rivtam/testdeployments/static/media/Wizz.076a445ec1e80422c1f5.png",
     "static/media/fa-brands-400.ttf": "/rivtam/testdeployments/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
@@ -15,11 +15,11 @@
     "static/media/fa-v4compatibility.woff2": "/rivtam/testdeployments/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
     "index.html": "/rivtam/testdeployments/index.html",
     "main.045164af.css.map": "/rivtam/testdeployments/static/css/main.045164af.css.map",
-    "main.efae7c18.js.map": "/rivtam/testdeployments/static/js/main.efae7c18.js.map",
-    "787.c4898b4b.chunk.js.map": "/rivtam/testdeployments/static/js/787.c4898b4b.chunk.js.map"
+    "main.b48a6be3.js.map": "/rivtam/testdeployments/static/js/main.b48a6be3.js.map",
+    "787.bae6da08.chunk.js.map": "/rivtam/testdeployments/static/js/787.bae6da08.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.045164af.css",
-    "static/js/main.efae7c18.js"
+    "static/js/main.b48a6be3.js"
   ]
 }
