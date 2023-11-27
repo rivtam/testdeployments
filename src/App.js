@@ -69,11 +69,60 @@ import PrivateRoute from './helpers/PrivateRoute';
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Sidebar />,
+    // element: <Sidebar />,
+    element: <HomePage />,
     errorElement: <ErrorPage />,
     children: [
       {
-        path: '/',
+        path: '/rivtam/testdeployments',
+        element: <HomePage />,
+      },
+      {
+        path: '/testdeployments',
+        element: <HomePage />,
+      },
+      {
+        path: '/rivtam/',
+        element: <HomePage />,
+      },
+      {
+        path: 'groceries/:id',
+        element: <GroceryDetail />,
+      },
+      // {
+      //   path: '/overview',
+      //   element: (
+      //     <PrivateRoute>
+      //       <OverviewPage />
+      //     </PrivateRoute>
+      //   ),
+      // },
+      // {
+      //   path: 'search',
+      //   element: (
+      //     <PrivateRoute>
+      //       <AdvancedSearchComponent />
+      //     </PrivateRoute>
+      //   ),
+      // },
+    ],
+  },
+  {
+    path: '*',
+    // element: <Sidebar />,
+    element: <HomePage />,
+    errorElement: <ErrorPage />,
+    children: [
+      {
+        path: '/rivtam/testdeployments',
+        element: <HomePage />,
+      },
+      {
+        path: '/testdeployments',
+        element: <HomePage />,
+      },
+      {
+        path: '/rivtam/',
         element: <HomePage />,
       },
       {
