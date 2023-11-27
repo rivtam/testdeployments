@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/rivtam/testdeployments/static/css/main.045164af.css",
-    "main.js": "/rivtam/testdeployments/static/js/main.b48a6be3.js",
-    "static/js/787.bae6da08.chunk.js": "/rivtam/testdeployments/static/js/787.bae6da08.chunk.js",
-    "static/media/fa-solid-900.ttf": "/rivtam/testdeployments/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
-    "static/media/Wizz.png": "/rivtam/testdeployments/static/media/Wizz.076a445ec1e80422c1f5.png",
-    "static/media/fa-brands-400.ttf": "/rivtam/testdeployments/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
-    "static/media/fa-solid-900.woff2": "/rivtam/testdeployments/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
-    "static/media/fa-brands-400.woff2": "/rivtam/testdeployments/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
-    "static/media/fa-regular-400.ttf": "/rivtam/testdeployments/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
-    "static/media/Wizzit.png": "/rivtam/testdeployments/static/media/Wizzit.f5241158a225c4ad2984.png",
-    "static/media/fa-regular-400.woff2": "/rivtam/testdeployments/static/media/fa-regular-400.b041b1fa4fe241b23445.woff2",
-    "static/media/fa-v4compatibility.ttf": "/rivtam/testdeployments/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
-    "static/media/fa-v4compatibility.woff2": "/rivtam/testdeployments/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
-    "index.html": "/rivtam/testdeployments/index.html",
-    "main.045164af.css.map": "/rivtam/testdeployments/static/css/main.045164af.css.map",
-    "main.b48a6be3.js.map": "/rivtam/testdeployments/static/js/main.b48a6be3.js.map",
-    "787.bae6da08.chunk.js.map": "/rivtam/testdeployments/static/js/787.bae6da08.chunk.js.map"
+    "main.css": "/testdeployments/static/css/main.2b14257d.css",
+    "main.js": "/testdeployments/static/js/main.eb6e6bc1.js",
+    "static/js/787.bae6da08.chunk.js": "/testdeployments/static/js/787.bae6da08.chunk.js",
+    "static/media/fa-solid-900.ttf": "/testdeployments/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
+    "static/media/Wizz.png": "/testdeployments/static/media/Wizz.076a445ec1e80422c1f5.png",
+    "static/media/fa-brands-400.ttf": "/testdeployments/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
+    "static/media/fa-solid-900.woff2": "/testdeployments/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
+    "static/media/fa-brands-400.woff2": "/testdeployments/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
+    "static/media/fa-regular-400.ttf": "/testdeployments/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
+    "static/media/Wizzit.png": "/testdeployments/static/media/Wizzit.f5241158a225c4ad2984.png",
+    "static/media/fa-regular-400.woff2": "/testdeployments/static/media/fa-regular-400.b041b1fa4fe241b23445.woff2",
+    "static/media/fa-v4compatibility.ttf": "/testdeployments/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
+    "static/media/fa-v4compatibility.woff2": "/testdeployments/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
+    "index.html": "/testdeployments/index.html",
+    "main.2b14257d.css.map": "/testdeployments/static/css/main.2b14257d.css.map",
+    "main.eb6e6bc1.js.map": "/testdeployments/static/js/main.eb6e6bc1.js.map",
+    "787.bae6da08.chunk.js.map": "/testdeployments/static/js/787.bae6da08.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.045164af.css",
-    "static/js/main.b48a6be3.js"
+    "static/css/main.2b14257d.css",
+    "static/js/main.eb6e6bc1.js"
   ]
 }
