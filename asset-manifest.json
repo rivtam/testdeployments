@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/testdeployments/static/css/main.2b14257d.css",
-    "main.js": "/testdeployments/static/js/main.eb6e6bc1.js",
+    "main.js": "/testdeployments/static/js/main.3c2a14fb.js",
     "static/js/787.bae6da08.chunk.js": "/testdeployments/static/js/787.bae6da08.chunk.js",
     "static/media/fa-solid-900.ttf": "/testdeployments/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
     "static/media/Wizz.png": "/testdeployments/static/media/Wizz.076a445ec1e80422c1f5.png",
@@ -15,11 +15,11 @@
     "static/media/fa-v4compatibility.woff2": "/testdeployments/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
     "index.html": "/testdeployments/index.html",
     "main.2b14257d.css.map": "/testdeployments/static/css/main.2b14257d.css.map",
-    "main.eb6e6bc1.js.map": "/testdeployments/static/js/main.eb6e6bc1.js.map",
+    "main.3c2a14fb.js.map": "/testdeployments/static/js/main.3c2a14fb.js.map",
     "787.bae6da08.chunk.js.map": "/testdeployments/static/js/787.bae6da08.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2b14257d.css",
-    "static/js/main.eb6e6bc1.js"
+    "static/js/main.3c2a14fb.js"
   ]
 }
