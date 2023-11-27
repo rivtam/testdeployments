@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/rivtam/nkunartz/static/css/main.a78e026f.css",
+    "main.js": "/rivtam/nkunartz/static/js/main.65331b0d.js",
+    "static/js/787.c4898b4b.chunk.js": "/rivtam/nkunartz/static/js/787.c4898b4b.chunk.js",
+    "static/media/fa-solid-900.ttf": "/rivtam/nkunartz/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
+    "static/media/Wizz.png": "/rivtam/nkunartz/static/media/Wizz.076a445ec1e80422c1f5.png",
+    "static/media/fa-brands-400.ttf": "/rivtam/nkunartz/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
+    "static/media/fa-solid-900.woff2": "/rivtam/nkunartz/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
+    "static/media/fa-brands-400.woff2": "/rivtam/nkunartz/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
+    "static/media/fa-regular-400.ttf": "/rivtam/nkunartz/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
+    "static/media/Wizzit.png": "/rivtam/nkunartz/static/media/Wizzit.f5241158a225c4ad2984.png",
+    "static/media/fa-regular-400.woff2": "/rivtam/nkunartz/static/media/fa-regular-400.b041b1fa4fe241b23445.woff2",
+    "static/media/fa-v4compatibility.ttf": "/rivtam/nkunartz/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
+    "static/media/fa-v4compatibility.woff2": "/rivtam/nkunartz/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
+    "index.html": "/rivtam/nkunartz/index.html",
+    "main.a78e026f.css.map": "/rivtam/nkunartz/static/css/main.a78e026f.css.map",
+    "main.65331b0d.js.map": "/rivtam/nkunartz/static/js/main.65331b0d.js.map",
+    "787.c4898b4b.chunk.js.map": "/rivtam/nkunartz/static/js/787.c4898b4b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a78e026f.css",
+    "static/js/main.65331b0d.js"
+  ]
+}
