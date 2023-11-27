@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/rivtam/testdeployments/static/css/main.045164af.css",
-    "main.js": "/rivtam/testdeployments/static/js/main.f5fbaf65.js",
+    "main.js": "/rivtam/testdeployments/static/js/main.763cdbc4.js",
     "static/js/787.c4898b4b.chunk.js": "/rivtam/testdeployments/static/js/787.c4898b4b.chunk.js",
     "static/media/fa-solid-900.ttf": "/rivtam/testdeployments/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
     "static/media/Wizz.png": "/rivtam/testdeployments/static/media/Wizz.076a445ec1e80422c1f5.png",
@@ -15,11 +15,11 @@
     "static/media/fa-v4compatibility.woff2": "/rivtam/testdeployments/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
     "index.html": "/rivtam/testdeployments/index.html",
     "main.045164af.css.map": "/rivtam/testdeployments/static/css/main.045164af.css.map",
-    "main.f5fbaf65.js.map": "/rivtam/testdeployments/static/js/main.f5fbaf65.js.map",
+    "main.763cdbc4.js.map": "/rivtam/testdeployments/static/js/main.763cdbc4.js.map",
     "787.c4898b4b.chunk.js.map": "/rivtam/testdeployments/static/js/787.c4898b4b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.045164af.css",
-    "static/js/main.f5fbaf65.js"
+    "static/js/main.763cdbc4.js"
   ]
 }
